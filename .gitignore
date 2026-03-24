@@ -16,6 +16,10 @@ obj/
 *license.config
 modules/
 
+# playwright-cli artifacts
+.playwright/
+.playwright-cli/
+
 # OS crap
 .DS_Store
 thumbs.db

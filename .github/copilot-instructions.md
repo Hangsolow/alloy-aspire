@@ -6,9 +6,9 @@ This is the **Alloy MVC template** for **Optimizely CMS 12** (formerly EPiServer
 
 **With .NET Aspire (any OS, requires Docker):**
 ```bash
-dotnet run --project alloy-docker.AppHost
+aspire start
 ```
-Opens the Aspire dashboard; the `web` resource shows the app URL. SQL Server data persists in `App_Data/`.
+Use the **aspire skill** for all Aspire operations (start, stop, status, logs, dashboard). `aspire start` launches the AppHost, opens the dashboard, and starts all resources including SQL Server. Data persists in `App_Data/`.
 
 **Without Docker (Windows):**
 ```bash
@@ -17,6 +17,17 @@ dotnet run
 Requires SQL Server LocalDB. Set `ConnectionStrings:EPiServerDB` in `appsettings.Development.json`.
 
 There are no automated tests in this project.
+
+## Browser Automation (playwright-cli)
+
+When using `playwright-cli` to take screenshots or save snapshots, always save files to the `.playwright/` folder instead of the project root:
+
+```bash
+playwright-cli screenshot --filename=.playwright/my-screenshot.png
+playwright-cli snapshot --filename=.playwright/my-snapshot.yaml
+```
+
+This folder is git-ignored.
 
 ## Architecture
 

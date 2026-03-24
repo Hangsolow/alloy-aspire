@@ -60,6 +60,7 @@ public class Startup
         app.UseDetection();
         app.UseSession();
 
+        app.UseMiddleware<alloy_docker.Helpers.AudienceEnhancerMiddleware>();
         app.UseStaticFiles();
         app.UseRouting();
         app.UseAuthentication();
