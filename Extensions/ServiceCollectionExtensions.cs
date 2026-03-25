@@ -1,6 +1,7 @@
 using alloy_docker.Business;
 using alloy_docker.Business.Channels;
 using alloy_docker.Business.Rendering;
+using EPiServer.Shell.Modules;
 using EPiServer.Web;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -22,6 +23,9 @@ public static class ServiceCollectionExtensions
         });
 
         services.Configure<MvcOptions>(options => options.Filters.Add<PageContextActionFilter>());
+
+        services.Configure<ProtectedModuleOptions>(o =>
+            o.Items.Add(new ModuleDetails { Name = "EPiServer.AudienceSearchEnhancer" }));
 
         services.AddDisplayResolutions();
         services.AddDetection();
