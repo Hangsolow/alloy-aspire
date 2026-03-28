@@ -25,6 +25,10 @@
     <EmbeddedResource Include="Resources\Translations\**\*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="alloy-aspire.ServiceDefaults/alloy-aspire.ServiceDefaults.csproj" />
+  </ItemGroup>
+
   <!-- Exclude sub-projects that live in subdirectories from this project's compilation -->
   <ItemGroup>
     <Compile Remove="alloy-aspire.AppHost/**" />

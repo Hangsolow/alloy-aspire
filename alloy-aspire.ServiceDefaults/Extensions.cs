@@ -106,6 +106,50 @@ public static class Extensions
         return builder;
     }
 
+    public static IHostBuilder AddServiceDefaults(this IHostBuilder hostBuilder)
+    {
+        hostBuilder.ConfigureLogging(logging =>
+            logging.AddOpenTelemetry(otel =>
+            {
+                otel.IncludeFormattedMessage = true;
+                otel.IncludeScopes = true;
+            }));
+
+        hostBuilder.ConfigureServices((context, services) =>
+        {
+            services.AddOpenTelemetry()
+                .WithMetrics(metrics =>
+                {
+                    metrics.AddAspNetCoreInstrumentation()
+                        .AddHttpClientInstrumentation()
+                        .AddRuntimeInstrumentation();
+                })
+                .WithTracing(tracing =>
+                {
+                    tracing.AddSource(context.HostingEnvironment.ApplicationName)
+                        .AddAspNetCoreInstrumentation(opt =>
+                            opt.Filter = ctx =>
+                                !ctx.Request.Path.StartsWithSegments(HealthEndpointPath)
+                                && !ctx.Request.Path.StartsWithSegments(AlivenessEndpointPath))
+                        .AddHttpClientInstrumentation();
+                });
+
+            if (!string.IsNullOrWhiteSpace(context.Configuration["OTEL_EXPORTER_OTLP_ENDPOINT"]))
+            {
+                services.AddOpenTelemetry().UseOtlpExporter();
+            }
+
+            services.AddServiceDiscovery();
+            services.ConfigureHttpClientDefaults(http =>
+            {
+                http.AddStandardResilienceHandler();
+                http.AddServiceDiscovery();
+            });
+        });
+
+        return hostBuilder;
+    }
+
     public static WebApplication MapDefaultEndpoints(this WebApplication app)
     {
         // Adding health checks endpoints to applications in non-development environments has security implications.
