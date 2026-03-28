@@ -1,11 +1,11 @@
-using alloy_docker.Business.Rendering;
+using alloy_aspire.Business.Rendering;
 using EPiServer.Framework;
 using EPiServer.Framework.Initialization;
 using EPiServer.ServiceLocation;
 using EPiServer.Web;
 using EPiServer.Web.Mvc;
 
-namespace alloy_docker.Business.Initialization;
+namespace alloy_aspire.Business.Initialization;
 
 /// <summary>
 /// Module for customizing templates and rendering.

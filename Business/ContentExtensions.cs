@@ -2,7 +2,7 @@ using EPiServer.Filters;
 using EPiServer.Framework.Web;
 using EPiServer.ServiceLocation;
 
-namespace alloy_docker.Business;
+namespace alloy_aspire.Business;
 
 /// <summary>
 /// Extension methods for content

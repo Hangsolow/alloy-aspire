@@ -1,10 +1,10 @@
 using System.Diagnostics;
-using alloy_docker.Helpers;
-using alloy_docker.Models.ViewModels;
+using alloy_aspire.Helpers;
+using alloy_aspire.Models.ViewModels;
 using EPiServer.Web.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace alloy_docker.Business.Rendering;
+namespace alloy_aspire.Business.Rendering;
 
 /// <summary>
 /// Wraps an MvcContentRenderer and adds error handling to ensure that blocks and other content

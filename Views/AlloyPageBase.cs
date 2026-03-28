@@ -1,9 +1,9 @@
-using alloy_docker.Business.Rendering;
+using alloy_aspire.Business.Rendering;
 using EPiServer.ServiceLocation;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace alloy_docker.Views;
+namespace alloy_aspire.Views;
 
 public abstract class AlloyPageBase<TModel> : RazorPage<TModel> where TModel : class
 {

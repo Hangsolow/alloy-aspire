@@ -1,11 +1,11 @@
 using System.ComponentModel.DataAnnotations;
-using alloy_docker.Business;
-using alloy_docker.Models.Blocks;
+using alloy_aspire.Business;
+using alloy_aspire.Models.Blocks;
 using EPiServer.Filters;
 using EPiServer.Framework.Localization;
 using EPiServer.ServiceLocation;
 
-namespace alloy_docker.Models.Pages;
+namespace alloy_aspire.Models.Pages;
 
 /// <summary>
 /// Presents a news section including a list of the most recent articles on the site

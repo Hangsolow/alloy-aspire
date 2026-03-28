@@ -1,4 +1,4 @@
-namespace alloy_docker.Models.Pages;
+namespace alloy_aspire.Models.Pages;
 
 public interface IHasRelatedContent
 {

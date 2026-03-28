@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations;
-using alloy_docker.Business.Rendering;
+using alloy_aspire.Business.Rendering;
 using EPiServer.SpecializedProperties;
 using EPiServer.Web;
 
-namespace alloy_docker.Models.Pages;
+namespace alloy_aspire.Models.Pages;
 
 /// <summary>
 /// Base class for all page types

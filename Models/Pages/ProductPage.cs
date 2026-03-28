@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
-using alloy_docker.Models.Blocks;
+using alloy_aspire.Models.Blocks;
 
-namespace alloy_docker.Models.Pages;
+namespace alloy_aspire.Models.Pages;
 
 /// <summary>
 /// Used to present a single product

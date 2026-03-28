@@ -1,6 +1,6 @@
 using EPiServer.Framework.Localization;
 
-namespace alloy_docker.Business.Channels;
+namespace alloy_aspire.Business.Channels;
 
 /// <summary>
 /// Defines resolution for desktop displays

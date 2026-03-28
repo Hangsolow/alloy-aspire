@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.Razor;
 
-namespace alloy_docker.Business.Rendering;
+namespace alloy_aspire.Business.Rendering;
 
 public class SiteViewEngineLocationExpander : IViewLocationExpander
 {

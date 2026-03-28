@@ -1,7 +1,7 @@
 using EPiServer.ServiceLocation;
 using EPiServer.Shell.ObjectEditing;
 
-namespace alloy_docker.Business.EditorDescriptors;
+namespace alloy_aspire.Business.EditorDescriptors;
 
 /// <summary>
 /// Provides a list of options corresponding to ContactPage pages on the site

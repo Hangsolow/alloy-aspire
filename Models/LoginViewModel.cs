@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace alloy_docker.Models;
+namespace alloy_aspire.Models;
 
 public class LoginViewModel
 {

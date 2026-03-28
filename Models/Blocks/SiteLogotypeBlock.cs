@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using EPiServer.Shell.ObjectEditing;
 using EPiServer.Web;
 
-namespace alloy_docker.Models.Blocks;
+namespace alloy_aspire.Models.Blocks;
 
 /// <summary>
 /// Used to provide a composite property on the start page to set site logotype settings

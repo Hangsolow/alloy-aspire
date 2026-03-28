@@ -1,4 +1,4 @@
-namespace alloy_docker.Business.Rendering;
+namespace alloy_aspire.Business.Rendering;
 
 /// <summary>
 /// Defines a property for CSS class(es) which will be added to the class

@@ -1,11 +1,11 @@
-using alloy_docker.Controllers;
-using alloy_docker.Models.Blocks;
-using alloy_docker.Models.Pages;
+using alloy_aspire.Controllers;
+using alloy_aspire.Models.Blocks;
+using alloy_aspire.Models.Pages;
 using EPiServer.ServiceLocation;
 using EPiServer.Web;
 using EPiServer.Web.Mvc;
 
-namespace alloy_docker.Business.Rendering;
+namespace alloy_aspire.Business.Rendering;
 
 [ServiceConfiguration(typeof(IViewTemplateModelRegistrator))]
 public class TemplateCoordinator : IViewTemplateModelRegistrator

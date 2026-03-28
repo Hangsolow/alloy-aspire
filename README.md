@@ -23,7 +23,7 @@ Prerequisities
 - Docker (to run the SQL Server container)
 
 ```bash
-$ dotnet run --project alloy-docker.AppHost
+$ dotnet run --project alloy-aspire.AppHost
 ````
 
 This launches the .NET Aspire dashboard and starts both the SQL Server container and the web app. The Aspire dashboard opens automatically and shows logs, traces, and resource status.
@@ -36,10 +36,10 @@ This launches the .NET Aspire dashboard and starts both the SQL Server container
 
 #### Customising the SA password
 
-The default SA password (`Qwerty12345!`) is set in `alloy-docker.AppHost/appsettings.Development.json`. Override it for your environment using [user secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets):
+The default SA password (`Qwerty12345!`) is set in `alloy-aspire.AppHost/appsettings.Development.json`. Override it for your environment using [user secrets](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets):
 
 ```bash
-cd alloy-docker.AppHost
+cd alloy-aspire.AppHost
 dotnet user-secrets set "Parameters:sql-password" "<your-password>"
 ```
 
@@ -54,7 +54,7 @@ Create an empty database on the external database server and add the connection 
 ```json
 {
   "ConnectionStrings": {
-    "EPiServerDB": "Server=<host>;Database=alloy-docker;User Id=<user>;Password=<password>;Encrypt=False;"
+    "EPiServerDB": "Server=<host>;Database=alloy-aspire;User Id=<user>;Password=<password>;Encrypt=False;"
   }
 }
 ```

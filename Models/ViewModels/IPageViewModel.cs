@@ -1,6 +1,6 @@
-using alloy_docker.Models.Pages;
+using alloy_aspire.Models.Pages;
 
-namespace alloy_docker.Models.ViewModels;
+namespace alloy_aspire.Models.ViewModels;
 
 /// <summary>
 /// Defines common characteristics for view models for pages, including properties used by layout files.

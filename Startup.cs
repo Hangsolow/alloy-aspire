@@ -1,4 +1,4 @@
-using alloy_docker.Extensions;
+using alloy_aspire.Extensions;
 using EPiServer.Cms.Shell;
 using EPiServer.Cms.UI.AspNetIdentity;
 using EPiServer.Scheduler;
@@ -7,7 +7,7 @@ using Hangsolow.OptimizelyAudienceSearch;
 using EPiServer.Web.Routing;
 using OptiMcpServer;
 
-namespace alloy_docker;
+namespace alloy_aspire;
 
 public class Startup
 {

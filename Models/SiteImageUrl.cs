@@ -1,4 +1,4 @@
-namespace alloy_docker.Models;
+namespace alloy_aspire.Models;
 
 /// <summary>
 /// Attribute to set the default thumbnail for site page and block types

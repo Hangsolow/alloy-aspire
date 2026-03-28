@@ -1,10 +1,10 @@
-using alloy_docker.Models.Media;
-using alloy_docker.Models.ViewModels;
+using alloy_aspire.Models.Media;
+using alloy_aspire.Models.ViewModels;
 using EPiServer.Web.Mvc;
 using EPiServer.Web.Routing;
 using Microsoft.AspNetCore.Mvc;
 
-namespace alloy_docker.Components;
+namespace alloy_aspire.Components;
 
 /// <summary>
 /// Controller for the video file.

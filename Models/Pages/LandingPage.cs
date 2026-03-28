@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace alloy_docker.Models.Pages;
+namespace alloy_aspire.Models.Pages;
 
 /// <summary>
 /// Used for campaign or landing pages, commonly used for pages linked in online advertising such as AdWords

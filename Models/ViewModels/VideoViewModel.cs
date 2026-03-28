@@ -1,4 +1,4 @@
-namespace alloy_docker.Models.ViewModels;
+namespace alloy_aspire.Models.ViewModels;
 
 /// <summary>
 /// View model for the video file

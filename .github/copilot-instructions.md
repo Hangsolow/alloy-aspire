@@ -97,7 +97,7 @@ editHints.AddConnection(m => m.Layout.Logotype, p => p.SiteLogotype);
 All views must inherit from `AlloyPageBase<T>`. For content area rendering, pass `OnItemRendered` so Bootstrap CSS classes are applied from display options:
 
 ```cshtml
-@inherits alloy_docker.Views.AlloyPageBase<PageViewModel<MyPage>>
+@inherits alloy_aspire.Views.AlloyPageBase<PageViewModel<MyPage>>
 
 <div epi-property="@Model.CurrentPage.MainContentArea" class="row">
     <div epi-property-item class="block" epi-on-item-rendered="OnItemRendered" />

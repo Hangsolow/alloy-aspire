@@ -2,7 +2,7 @@ using EPiServer.Web;
 using Wangkanai.Detection.Models;
 using Wangkanai.Detection.Services;
 
-namespace alloy_docker.Business.Channels;
+namespace alloy_aspire.Business.Channels;
 
 /// <summary>
 /// Defines the 'Web' content channel

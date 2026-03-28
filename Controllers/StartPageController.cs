@@ -1,10 +1,10 @@
-using alloy_docker.Models.Pages;
-using alloy_docker.Models.ViewModels;
+using alloy_aspire.Models.Pages;
+using alloy_aspire.Models.ViewModels;
 using EPiServer.Web;
 using EPiServer.Web.Mvc;
 using Microsoft.AspNetCore.Mvc;
 
-namespace alloy_docker.Controllers;
+namespace alloy_aspire.Controllers;
 
 public class StartPageController : PageControllerBase<StartPage>
 {

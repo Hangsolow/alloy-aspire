@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations;
-using alloy_docker.Models.Pages;
+using alloy_aspire.Models.Pages;
 using EPiServer.Web;
 using Microsoft.AspNetCore.Html;
 
-namespace alloy_docker.Models.ViewModels;
+namespace alloy_aspire.Models.ViewModels;
 
 public class ContactBlockModel
 {

@@ -1,5 +1,5 @@
 {
   "appHost": {
-    "path": "alloy-docker.AppHost/alloy-docker.AppHost.csproj"
+    "path": "alloy-aspire.AppHost/alloy-aspire.AppHost.csproj"
   }
 }

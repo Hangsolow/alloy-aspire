@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace alloy_docker.Helpers;
+namespace alloy_aspire.Helpers;
 
 public static class UrlHelpers
 {

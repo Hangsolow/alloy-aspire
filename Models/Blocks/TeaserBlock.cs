@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using EPiServer.Web;
 
-namespace alloy_docker.Models.Blocks;
+namespace alloy_aspire.Models.Blocks;
 
 /// <summary>
 /// Used to provide a stylized entry point to a page on the site

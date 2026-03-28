@@ -1,9 +1,9 @@
-using alloy_docker.Models.Pages;
-using alloy_docker.Models.ViewModels;
+using alloy_aspire.Models.Pages;
+using alloy_aspire.Models.ViewModels;
 using EPiServer.Framework.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 
-namespace alloy_docker.Controllers;
+namespace alloy_aspire.Controllers;
 
 /// <summary>
 /// Concrete controller that handles all page types that don't have their own specific controllers.

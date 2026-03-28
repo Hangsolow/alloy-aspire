@@ -1,4 +1,4 @@
-namespace alloy_docker.Models.ViewModels;
+namespace alloy_aspire.Models.ViewModels;
 
 public class ContentRenderingErrorModel
 {

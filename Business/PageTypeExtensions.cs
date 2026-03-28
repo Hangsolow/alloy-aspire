@@ -1,6 +1,6 @@
 using EPiServer.ServiceLocation;
 
-namespace alloy_docker.Business;
+namespace alloy_aspire.Business;
 
 /// <summary>
 /// Provides extension methods for types intended to be used when working with page types

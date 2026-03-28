@@ -1,6 +1,6 @@
 using EPiServer.ServiceLocation;
 
-namespace alloy_docker.Helpers;
+namespace alloy_aspire.Helpers;
 
 /// <summary>
 /// Provides extension methods for categorizable content

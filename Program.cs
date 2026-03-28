@@ -1,4 +1,4 @@
-namespace alloy_docker;
+namespace alloy_aspire;
 
 public class Program
 {

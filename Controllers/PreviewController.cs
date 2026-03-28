@@ -1,6 +1,6 @@
-using alloy_docker.Business;
-using alloy_docker.Models.Pages;
-using alloy_docker.Models.ViewModels;
+using alloy_aspire.Business;
+using alloy_aspire.Models.Pages;
+using alloy_aspire.Models.ViewModels;
 using EPiServer.Framework.DataAnnotations;
 using EPiServer.Framework.Web;
 using EPiServer.Framework.Web.Mvc;
@@ -8,7 +8,7 @@ using EPiServer.Web;
 using EPiServer.Web.Mvc;
 using Microsoft.AspNetCore.Mvc;
 
-namespace alloy_docker.Controllers;
+namespace alloy_aspire.Controllers;
 
 // Note: as the content area rendering on Alloy is customized we create ContentArea instances
 // which we render in the preview view in order to provide editors with a preview which is as

@@ -1,4 +1,4 @@
-namespace alloy_docker.Models.Media;
+namespace alloy_aspire.Models.Media;
 
 [ContentType(GUID = "EE3BD195-7CB0-4756-AB5F-E5E223CD9820")]
 public class GenericMedia : MediaData

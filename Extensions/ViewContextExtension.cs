@@ -2,7 +2,7 @@ using EPiServer.Web;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace alloy_docker.Helpers;
+namespace alloy_aspire.Helpers;
 
 /// <summary>
 /// Extension methods on request Context such as et/Set Node, Lang, Controller

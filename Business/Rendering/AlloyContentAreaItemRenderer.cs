@@ -1,10 +1,10 @@
 using EPiServer.Web;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Microsoft.AspNetCore.Mvc.TagHelpers;
-using static alloy_docker.Globals;
+using static alloy_aspire.Globals;
 using System.Text;
 
-namespace alloy_docker.Business.Rendering;
+namespace alloy_aspire.Business.Rendering;
 
 public class AlloyContentAreaItemRenderer
 {

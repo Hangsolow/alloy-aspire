@@ -1,4 +1,6 @@
-App_Data/
+App_Data/*
+!App_Data/alloy-aspire.mdf
+!App_Data/DefaultSiteContent.episerverdata
 node_modules/
 artifacts/
 
@@ -25,3 +27,5 @@ modules/
 thumbs.db
 ehthumbs.db
 desktop.ini
+core
+*.core

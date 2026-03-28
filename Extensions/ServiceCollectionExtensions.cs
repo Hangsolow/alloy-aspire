@@ -1,13 +1,13 @@
-using alloy_docker.Business;
-using alloy_docker.Business.Channels;
-using alloy_docker.Business.Rendering;
+using alloy_aspire.Business;
+using alloy_aspire.Business.Channels;
+using alloy_aspire.Business.Rendering;
 using EPiServer.Shell.Modules;
 using EPiServer.Web;
 using Hangsolow.OptimizelyAudienceSearch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
 
-namespace alloy_docker.Extensions;
+namespace alloy_aspire.Extensions;
 
 public static class ServiceCollectionExtensions
 {
