@@ -16,6 +16,7 @@
   <ItemGroup>
     <PackageReference Include="EPiServer.CMS" Version="12.34.2" />
     <PackageReference Include="Hangsolow.OptiMcpServer" Version="1.0.5" />
+    <PackageReference Include="Hangsolow.OptimizelyAudienceSearch" Version="1.2.0" />
     <PackageReference Include="System.Runtime.Serialization.Formatters" Version="10.0.5" />
     <PackageReference Include="Wangkanai.Detection" Version="8.7.0" />
   </ItemGroup>

@@ -3,6 +3,7 @@ using EPiServer.Cms.Shell;
 using EPiServer.Cms.UI.AspNetIdentity;
 using EPiServer.Scheduler;
 using EPiServer.ServiceLocation;
+using Hangsolow.OptimizelyAudienceSearch;
 using EPiServer.Web.Routing;
 using OptiMcpServer;
 
@@ -31,6 +32,7 @@ public class Startup
         services
             .AddCmsAspNetIdentity<ApplicationUser>()
             .AddCms()
+            .AddOptimizelyAudienceSearch()
             .AddAlloy()
             .AddAdminUserRegistration()
             .AddEmbeddedLocalization<Startup>();
